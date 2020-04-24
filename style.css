@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+height: 100%;
+}
+
+nav{
+    position: relative;
+    left: 200px;
+    height: 40px;
+    width: 400px;
+}
+
+/* Any thing that has to do witht he header  _______________________________________________________________________ */
+.header {
+    width: 850px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    width: 50%;
+
+    top: 0px;
+    left: 0px;
+}
+
+.header_background {
+    height: 350px;
+    width: 850px;
+    position: relative;
+    background-color: rgb(211, 129, 35);
+}
+
+.page_name{
+    position: relative;
+    top: 280px;
+    left: 200px;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(211, 129, 35);
+}
+h2{
+    color: yellow;
+}
+
+.website{
+    position: relative;
+    top: 270px;
+    left: 200px;
+    height: 40px;
+    width: 100px;
+    background-color:  rgb(211, 129, 35);;
+}
+
+.social_buttons{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+button{
+    font-size: 20px;
+}
+
+
+.profile_photo{
+    position: absolute;
+    left: 10px;
+    height: 175px;
+    width: 175px;
+    z-index: 100;
+    border: 1px solid;
+    top: 210px;
+    
+
+    background-image: url(https://familyguyaddicts.files.wordpress.com/2014/07/brianpbj-animation-040-actionmodal4x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+.profile_info{
+    height: 50px;
+    width: 850px;
+    position: relative;
+    background-color: purple;
+}
+
+.tabs{
+    list-style-type: none;
+  overflow: hidden;
+  display:inline;
+  
+}
+li{
+    font-size: 20px;
+    float: left;
+    padding: 3px;
+    color: white;
+}
+
+
+/* Body of wesite ruls?  _______________________________________________________________________ */
+
+.body{
+    position: relative;
+    height: 1000px;
+    margin: auto;
+    width: 50%;
+}
+
+.core{
+    width: 850px;
+    height: 1000px;
+}
+/* LEft columb section only!!! _______________________________________________________________________*/
+.left_columb{
+position: relative;
+top: 10px;
+height: 1000px;
+width: 328px;
+background-color: rgb(240, 191, 100);
+float: left;
+}
+
+.sandwiches_box{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 250px;
+    width: 300px;
+}
+.Penut_Butter_Jelly{
+    font-size: 20px;
+}
+
+.Photos_box{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: 250px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/474x/49/c1/a3/49c1a3167c4d6fdd7541440c75e7a174.jpg);
+    background-position: center;
+}
+
+.Photos{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    height: 30px;
+    width: 280px;
+}
+
+/* Right columb section only ____________________________________________________________________*/
+.right_columb{
+position: relative;
+top: 10px;
+height: 1000px;
+width: 512px;
+background-color: rgb(231, 54, 231);
+float: right;
+}
+
+.Instructions{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    height: 500px;
+    width: 450px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+ font-size: 30px;
+}
+
+td{
+font-size: 20px;
+color: rgb(29, 1, 22);
+}
